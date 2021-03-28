@@ -1,5 +1,6 @@
 body{
     background-color: #0E7E12;
+    
 }
 
 .card{
@@ -35,3 +36,15 @@ body{
     font-size: 70px;
     transform: rotate(180deg);
 }
+
+.divBottom{
+   
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.divBottom > input{
+    font-size: 20px;
+}
+

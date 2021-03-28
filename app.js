@@ -25,3 +25,6 @@ function cartas() {
     obtenerNumber.innerHTML = number[numberReal];
 
 }
+
+let boton = document.getElementById("boton")
+boton.addEventListener("click",cartas)
