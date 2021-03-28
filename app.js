@@ -16,6 +16,8 @@ function cartas() {
         a.innerHTML = symbol[symbolReal];                                                        //Me devuelve el indice random y lo adjunto al html
         if (symbol[symbolReal] === symbol[2] || symbol[symbolReal] === symbol[3]) {              //Indico que los ultimos 2 simbolos deben ser rojos
             a.style.color = "red";
+        }else{
+            a.style.color="black";
         }
 
     });
